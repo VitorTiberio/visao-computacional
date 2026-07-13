@@ -2,6 +2,8 @@
 
 ## 📸 Teoria - Visão Computacional 📸 ##
 
+Para consultar o material sobre Processamento Digital de Imagens, clique [Aqui](https://github.com/VitorTiberio/Processamento-de-Imagens)
+
 ---
 
 ## 🧑‍💻 Extras e Códigos 🧑‍💻 ##
