@@ -8,7 +8,7 @@
 
 ## 🧑‍💻 Extras e Códigos 🧑‍💻 ##
 * Para saber como usar o Vídeo da WebCam, clique [Aqui](codigos/cameras.md)
-* Para saber como inserir formas geométricas e textos no vídeo, cliqe [Aqui](codigos/formas_textos.md)
+* Para saber como inserir formas geométricas e textos no vídeo, clique [Aqui](codigos/formas_textos.md)
 ---
 
 ## ⚙️ Projetos de Visão Computacional 📝 ## 
