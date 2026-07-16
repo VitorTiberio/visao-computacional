@@ -36,4 +36,5 @@ while True:
 cap.release() ## "libera" o uso da câmera para outro dispositivo do computador, uma vez que o VideoCapture toma "posse" do poder de uso da câmera do dispositivo.
 cv.destroyAllWindows() ## fecha todas as janelas que foram abertas no código 
 ```
-  
+
+Lembre-se da importância do uso do "cap.release()", uma vez que caso o mesmo não esteja presente no código, seu interpretador continuará em "posse" do uso do dispositivo de vídeo, não podendo utilizar em outros programas, como o OBS, por exemplo. 
