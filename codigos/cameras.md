@@ -18,7 +18,7 @@ Note que o argumento de VideoCapture, nesse caso, é zero (0). Esse argumento é
 
 Para controlarmos quanto tempo esse vídeo será "mostrado" na tela do usuário, deve-se implementar um loop do tipo While, para que assim que uma tecla do teclado seja pressionada, o vídeo seja fechado. 
 
-Implementamos o código completo da seguinte forma: 
+Implementamos o código da seguinte forma: 
 ```python
 
 import numpy as np
