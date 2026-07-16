@@ -1,4 +1,4 @@
-# Como usar uma câmera no OpenCV ? #
+# 📷 Como usar uma câmera no OpenCV ? 📷 #
 
 --- 
 
