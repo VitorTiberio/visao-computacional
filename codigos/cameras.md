@@ -38,3 +38,7 @@ cv.destroyAllWindows() ## fecha todas as janelas que foram abertas no código
 ```
 
 Lembre-se da importância do uso do "cap.release()", uma vez que caso o mesmo não esteja presente no código, seu interpretador continuará em "posse" do uso do dispositivo de vídeo, não podendo utilizar em outros programas, como o OBS, por exemplo. 
+
+## 📚 Referências ##
+> [!NOTE]
+> Para mais informações, acesse o vídeo do Tech With Tim, presente neste [link](http://youtube.com/watch?v=rKcwcARdg9M&list=PLzMcBGfZo4-lUA8uGjeXhBUUzPYc6vZRn&index=3)
