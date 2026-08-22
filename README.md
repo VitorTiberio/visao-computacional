@@ -3,7 +3,7 @@
 ## 📸 Teoria - Visão Computacional 📸 ##
 
 * [REVISÃO] - Para consultar o material sobre Processamento Digital de Imagens, clique [Aqui](https://github.com/VitorTiberio/Processamento-de-Imagens)
-* Para consultar o material sobre operações morfológicas, clique [Aqui]()
+* Para consultar o material sobre operações morfológicas, clique [Aqui](teoria/processamento_morfologico.md)
 
 ---
 
