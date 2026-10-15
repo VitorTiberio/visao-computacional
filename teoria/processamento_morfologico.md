@@ -84,3 +84,17 @@ Fechamento: consiste em aplicar uma dilatação seguida de uma erosão. É utili
 ```pyhton
 img_close = cv.morphologyEx(img, cv.MORPH_CLOSE, SE)
 ```
+
+---
+
+## 5. Transformada Hit or Miss ## 
+
+A transformação Hit-or-Miss é útil para encontrar padrões em imagens binárias. Em particular, ela encontra aqueles pixels cuja vizinhança corresponde à forma de um primeiro elemento estruturante (B1) enquanto não corresponde à forma de um segundo elemento estruturante (B2), ao mesmo tempo. Uma outra forma de interpretar é que você deseja que os elementos "brancos" sejam correspondentes a B1, e que os elementos "pretos" (background) seja correspondente a B2.
+
+Portanto, a operação Hit-or-Miss pode ser feita em 3 passos:
+
+1. Erosão da imagem A com o elemento estruturante B1.
+2. Erosão do complemento da imagem A com o elemento estruturante B2.
+3. AND (lógico) dos resultados de 1 e 2.
+
+
