@@ -9,8 +9,32 @@ Primeiramente, o que é um processamento morfológico ? Eles se resumem em técn
 
 Uma imagem binária pode ser completamente descrita por um conjuto de todos os seus pixels de "frente" e todas as operações relacionadas à morfologia são definidas em termo de conjuntos. 
 
-Um outro termo importante são os **elementos estruturantes (SE)**. No caso, os mesmos serão as estruturas responsáveis por realizar as operações morfológicas. Falando nelas, as operações primitivas são conhecidas como Erosão e Diltação. 
+Um outro termo importante são os **elementos estruturantes (SE)**. No caso, os mesmos serão as estruturas responsáveis por realizar as operações morfológicas.  
 
-## 1. Erosão ## 
+## 1. Elementos Estruturantes ## 
+
+Os elementos estruturantes são pequenas matrizes utilizadas para analisar a vizinhança de cada pixel durante uma operação morfológica. Sua forma e dimensão determinam como a imagem será modificada.
+
+Os formatos mais comuns são retangular, elíptico e em cruz.
+
+Para a sua utilização, no OpenCV, pode-se escrever: 
+
+```python
+import cv2 as cv
+
+SE_quadrado = cv.getgetStructuringElement(cv.MORPH_RECT, (3, 3)) ## SE Quadrado ou Retangular (dependendo das dimensões)
+
+SE_cross = cv.getStructuringElement(cv.MORPH_CROSS, (3,3)) ## SE com o formato de cruz
+
+SE_elipse = cv.getStructuringElement(cv.MORPH_ELLIPSE, (3,3)) ## SE com o formato circular (se os parâmetros forem iguais, a elipse vira um circulo)
+```
+
+Uma outra maneira (mais arcaica) de criar um SE é utilizando uma função: 
+
+```python
+def structure_element_quadrado(dim):
+  SE = np.ones((dim,dim), dtype=np.uint8)
+  return SE
+```
 
 ## 2. Dilatação ## 
