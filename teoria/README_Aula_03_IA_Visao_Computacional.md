@@ -142,25 +142,7 @@ O **aprendizado por transferência** aproveita conhecimentos de um modelo já tr
 
 Mapas de ativação e de saliência ajudam a visualizar as regiões da imagem que mais influenciam determinadas previsões do modelo.
 
-## 7. Outros modelos apresentados
 
-- **GANs (Generative Adversarial Networks):** modelos generativos utilizados para produzir ou transformar imagens.
-- **ESRGAN:** arquitetura voltada à super-resolução de imagens.
-- **DLSS:** exemplo de aplicação de métodos neurais em processamento e renderização de imagens.
-- **RNN (Recurrent Neural Network):** arquitetura para trabalhar com sequências.
-- **LSTM (Long Short-Term Memory):** variante de rede recorrente com mecanismos para lidar com dependências ao longo de sequências.
-- **Transformers:** arquitetura baseada em mecanismos de atenção.
-- **Vision Transformer (ViT):** aplica mecanismos de Transformer à visão, trabalhando com *patches* da imagem.
-- **SAM (Segment Anything Model):** modelo de segmentação orientado por *prompts*, como pontos e caixas.
-
-## 8. Principais ideias da aula
-
-1. Redes neurais **aprendem parâmetros** a partir dos dados e de uma função de perda.
-2. Um Perceptron simples é limitado a problemas **linearmente separáveis**; redes com camadas ocultas podem representar relações não lineares.
-3. O treinamento combina **predição, cálculo do erro, retropropagação e atualização dos pesos**.
-4. As **CNNs** aproveitam a estrutura espacial das imagens e aprendem filtros para extrair características.
-5. **Overfitting** deve ser acompanhado usando dados de validação.
-6. A visão computacional moderna inclui **detecção, segmentação, geração e melhoria de imagens**, com arquiteturas como YOLO, GANs e Transformers.
 
 ## Referências e material de apoio
 
