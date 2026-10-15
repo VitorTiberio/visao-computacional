@@ -36,6 +36,7 @@ def structure_element_quadrado(dim):
   SE = np.ones((dim,dim), dtype=np.uint8)
   return SE
 ```
+---
 
 ## 2. Erosão ##
 
@@ -50,5 +51,22 @@ Para sua aplicação no OpenCV, temos:
 ```python
 img_erode = cv.erode(img, SE, iterations=1)
 ```
+
+--- 
+
+## 3. Dilatação ## 
+
+A dilatação realiza a operação oposta à erosão, tendendo a expandir as regiões brancas de uma imagem binária.
+
+Ela permite preencher pequenas lacunas, conectar regiões próximas e aumentar a espessura dos objetos.
+
+Em Python, temos: 
+
+```python
+img_dilatada = cv.dilate(img, SE, iterations=1)
+```
+
+--- 
+
 
 
