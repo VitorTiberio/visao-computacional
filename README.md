@@ -4,6 +4,7 @@
 
 * [REVISÃO] - Para consultar o material sobre Processamento Digital de Imagens, clique [Aqui](https://github.com/VitorTiberio/Processamento-de-Imagens)
 * Para consultar o material sobre operações morfológicas, clique [Aqui](teoria/processamento_morfologico.md)
+* Para consultar o material sobre IA em Visão Computacional, clique [Aqui](teoria/IA_Visao.md)
 
 ---
 
