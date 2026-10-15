@@ -68,5 +68,19 @@ img_dilatada = cv.dilate(img, SE, iterations=1)
 
 --- 
 
+## 4. Abertura e Fechamento ## 
+
+Além das operações primitivas, existem operações compostas, obtidas pela combinação de erosão e dilatação.
+
+Abertura: consiste em aplicar uma erosão seguida de uma dilatação, utilizando o mesmo elemento estruturante. É especialmente útil para eliminar pequenos objetos brancos e conexões estreitas.
+
+```pyhton
+img_abertura = cv.morphologyEx(img, cv.MORPH_OPEN, SE)
+```
+
+Fechamento: consiste em aplicar uma dilatação seguida de uma erosão. É utilizado para preencher pequenos buracos pretos e conectar regiões próximas.
 
 
+```pyhton
+img_close = cv.morphologyEx(img, cv.MORPH_CLOSE, SE)
+```
