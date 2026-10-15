@@ -37,4 +37,18 @@ def structure_element_quadrado(dim):
   return SE
 ```
 
-## 2. Dilatação ## 
+## 2. Erosão ##
+
+A erosão é uma operação morfológica que tende a reduzir as regiões brancas (objetos) de uma imagem binária.
+
+Considerando um elemento estruturante, um pixel permanecerá branco somente se todos os pixels da vizinhança exigidos pelo elemento estruturante também pertencerem ao objeto.
+
+Suas principais aplicações são a remoção de pequenos ruídos brancos, a separação de objetos conectados por regiões estreitas e a redução de bordas.
+
+Para sua aplicação no OpenCV, temos: 
+
+```python
+img_erode = cv.erode(img, SE, iterations=1)
+```
+
+
