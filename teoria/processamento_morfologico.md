@@ -11,7 +11,7 @@ Uma imagem binária pode ser completamente descrita por um conjuto de todos os s
 
 Um outro termo importante são os **elementos estruturantes (SE)**. No caso, os mesmos serão as estruturas responsáveis por realizar as operações morfológicas.  
 
-## 1. Elementos Estruturantes ## 
+## 1. Elementos Estruturantes (SE) ## 
 
 Os elementos estruturantes são pequenas matrizes utilizadas para analisar a vizinhança de cada pixel durante uma operação morfológica. Sua forma e dimensão determinam como a imagem será modificada.
 
